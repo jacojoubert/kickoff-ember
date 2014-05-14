@@ -1,6 +1,6 @@
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
-window.require('emberui');
+import EmberUI from 'emberui';
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 

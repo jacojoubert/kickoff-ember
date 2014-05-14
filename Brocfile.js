@@ -22,7 +22,10 @@ app.import('vendor/ember-list-view/index.js');
 app.import('vendor/Velocity.js/jquery.velocity.js');
 
 // EmberUI
-app.import('vendor/emberui/dist/named-amd/main.js');
+app.import('vendor/emberui/dist/named-amd/main.js', {
+  'emberui': ['default']
+});
+
 app.import('vendor/emberui/dist/emberui.css');
 app.import('vendor/emberui/dist/default-theme.css');
 
